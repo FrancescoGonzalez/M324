@@ -42,7 +42,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                sh "docker build -t ${IMAGE_NAME}:latest ./app"
+                sh "docker build --platform linux/amd64 -t ${IMAGE_NAME}:latest ./app"
             }
         }
 
