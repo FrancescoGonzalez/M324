@@ -22,7 +22,7 @@ variable "aws_region" {
 variable "my_ip" {
   description = "Your public IP address for SSH access (CIDR notation)"
   type        = string
-  default     = "212.117.117.63/32"
+  default     = "178.197.210.83/32"
 }
 
 variable "key_name" {
