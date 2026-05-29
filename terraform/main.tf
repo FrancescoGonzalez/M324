@@ -141,7 +141,7 @@ resource "aws_instance" "jenkins_agent" {
   }
 
   tags = {
-    Name = "jenkins-agent"
+    Name = "CFGB"
   }
 }
 
